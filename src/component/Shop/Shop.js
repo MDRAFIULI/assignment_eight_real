@@ -33,9 +33,12 @@ const Shop = () => {
     const [cart, setCart] = useState('')
     const handaleAddToCart = product => {
         console.log('aaaaaaaaaaaaaa')
-        const newCart = cart + ',     ' + product.name;
+        const newCart = cart + ',  ' + product.name;
         setCart(newCart);
 
+    }
+    const removeSelectItem = () => {
+        setCart('')
     }
     return (
 
@@ -49,6 +52,9 @@ const Shop = () => {
                     {/* <Cart cart={cart}></Cart> */}
                     <h1>selected item</h1>
                     <p>add item: {cart}</p>
+                    <button>choose one for me</button>
+                    <br></br>
+                    <button onClick={removeSelectItem}>choose again</button>
                 </div>
             </div>
         </div>
