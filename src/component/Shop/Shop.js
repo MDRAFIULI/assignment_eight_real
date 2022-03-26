@@ -45,9 +45,11 @@ const Shop = () => {
                 {products.map(product => <Product key={product.id} product={product} handaleAddToCart={handaleAddToCart}></Product>)}
             </div>
             <div>
-                {/* <Cart cart={cart}></Cart> */}
-                <h1>selected item</h1>
-                <p>add item: {cart}</p>
+                <div className='cart'>
+                    {/* <Cart cart={cart}></Cart> */}
+                    <h1>selected item</h1>
+                    <p>add item: {cart}</p>
+                </div>
             </div>
         </div>
     );

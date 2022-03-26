@@ -11,7 +11,7 @@
     height: 286px;
     margin: 0px 7px;
 }
-.btn-cart{
+/* .btn-cart{
     background-color: lightcoral;
     width: 100%;
     border-radius: 8px;
@@ -19,4 +19,16 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
+} */
+.btn-cart{
+    width: 100%;
+    border: none;
+    background: tomato;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

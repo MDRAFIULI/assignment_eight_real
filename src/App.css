@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.heading-container{
+  text-align: center;
+}
+.heading-container h1{
+  font-size: 70px;
+  color: tomato;
+}

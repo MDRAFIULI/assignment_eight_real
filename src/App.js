@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <div>
+        <div className='heading-container'>
+          <h1 className='heading'>Cycle Corner</h1>
+          <h3>Choose from cycle corner</h3>
+        </div>
         <Shop></Shop>
       </div>
     </div>
